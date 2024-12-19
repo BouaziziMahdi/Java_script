@@ -153,3 +153,13 @@ person.adress=new Object();
 person.adress.city="menzel bourguiba";
 person.adress.zip=7050;
 console.log(person);
+
+//passage par valeur et par reference
+var a={name:"mahdi"};
+var b=a;
+b.name="khalil";
+console.log(a.name);//khalil (passage par reference)
+var a=5;
+var b=a;
+b=6;
+console.log(a);//5 (passage par valeur)
