@@ -50,3 +50,15 @@ console.log(Math.ceil(4.2));//  round yaroud lel valeur la plus proche mais ceil
 console.log(Math.round(4.4));
 console.log(Math.max(4,5,6,7,8,9));
 console.log(Math.min(4,5,6,7,8,9));
+// comparaison equality and strict equality
+p=5;
+q="k";
+console.log(p==q) ;  //false
+w="5";
+console.log(p==w) ;  //true (js y9olik 5==5 puique w yerjaha number w yechoufha)
+
+console.log(p===w) ;  //false 
+
+n=true ;
+console.log(n==1) ;  //true
+console.log(n===1) ;  //false
