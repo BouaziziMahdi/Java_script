@@ -40,3 +40,13 @@ console.log(typeof b)//null ( me3niha valeur vide me3nch menha )
 
 console.log(typeof c)//undefined (me3niha ya bro 3andek variable mais ma3andekch valeur)
 g=undefined// rodblek t3eml heka ray temchi ema metjich
+
+// math obejct 
+console.log(Math.PI);
+console.log(Math.E);
+console.log(Math.abs(-5));
+console.log(Math.floor(4.7));
+console.log(Math.ceil(4.2));//  round yaroud lel valeur la plus proche mais ceil yaroud lel valeur la plus grande 
+console.log(Math.round(4.4));
+console.log(Math.max(4,5,6,7,8,9));
+console.log(Math.min(4,5,6,7,8,9));
