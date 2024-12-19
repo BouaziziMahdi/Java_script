@@ -228,3 +228,7 @@ function f1(){
 function f2(){
     console.log('lll');
 }
+
+function f3(){
+    console.log(event);
+}
