@@ -62,3 +62,66 @@ console.log(p===w) ;  //false
 n=true ;
 console.log(n==1) ;  //true
 console.log(n===1) ;  //false
+// logical operators
+console.log(true && false) //false (Ki tji ta7seb b AND, ta9oul manajem nji l'résultat true ken zouzhom mriglin (s7i7). Amma ki wa7ed fihom ghalet (false), résultat ywalli false )
+console.log(true || false) //true (lehna me3iha ken jit l sbeh normal w ken jit le3chiya normal)
+console.log(!true) //false
+// ternary operator
+var age= 0;
+for (i=0; i<10; i++){
+    age+=i;
+}
+console.log(age);
+
+//default values
+function aad(m){
+    return m/5;
+}
+console.log(aad());//nan (not a number) (ma3andekch valeur par defaut)
+function add(a){
+    if(a==undefined)
+        a=25;
+    return a/5;
+}
+console.log(add());//5
+function name(a="khalil"){
+    
+    return "asslema "+a;
+}
+console.log(name());
+
+function name(a){
+    a= a || "khalil";// (true || false) //true (lena ordre importante)
+    return "asslema "+a;
+}
+console.log(name());
+
+//loops 
+var i=0;
+while(i<4){
+    console.log(i);
+    i++;
+}
+//do while check condition apres l'execution
+do{
+    console.log(i);
+    i++;
+}
+while(i<0);
+
+var i=0;
+while(i<5){
+    if (i==3)
+        break;
+    console.log(i);
+    i++;
+
+}
+var i=-1;
+while(i<5){
+    i++;
+    if (i===3)
+        continue;
+    console.log(i);
+   
+}
