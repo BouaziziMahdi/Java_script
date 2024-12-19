@@ -163,3 +163,34 @@ var a=5;
 var b=a;
 b=6;
 console.log(a);//5 (passage par valeur)
+
+function Triangle(base,hauteur){
+    this.base=base;
+    this.hauteur=hauteur;
+   
+}
+Triangle.prototype.getArea=function(){
+    return 0.5*this.base*this.hauteur;
+}
+Triangle.prototype.getPerimter=function(){
+    return this.base+this.hauteur+Math.sqrt(this.base*this.base+this.hauteur*this.hauteur);
+}
+var t= new Triangle(10,5);
+console.log(t.getArea());
+console.log(t.getPerimter());
+
+//array
+array= new Array();
+array[0]="mahdi";
+ var arr=[1,2,3,4,5];
+ console.log(arr);
+ for(i=0; i<arr.length; i++){
+     console.log(arr[i]);
+ }
+ for ( key in array[0]){
+     console.log(key +":"+ array[0][key]);
+ }
+
+ for (i of arr){
+     console.log(i);
+ }
