@@ -202,19 +202,29 @@
 // console.log(document.getElementById("body").innerHTML);
 
 
+// function f1(){
+//     var a=document.getElementById("input").value;
+//     console.log(a);
+//    //this.document.getElementById("p").textContent='welcome '  + a;
+
+//    this.document.getElementById("p").innerHTML='<h1> welcome '  + a + '</h1>';
+//    this.document.getElementById("p").style.color="red";
+//    this.document.getElementById("p").style.backgroundColor="yellow";
+//    this.document.querySelector('button').style.fontSize='50px';
+//    this.document.getElementsByTagName('h1')[0].textContent = 'me3ah mahdi yesehl l js';
+
+//    //querySelector 
+//     this.document.querySelector('h1').textContent = 'me3ah bilel yesehl l js';
+//     this.document.querySelector('h1').style.color='blue';
+//     this.document.querySelector('h1').style.backgroundColor='green';
+// }    this.document.querySelector('h1').style.fontSize='50px';
+
+//keyborad events
 function f1(){
-    var a=document.getElementById("input").value;
-    console.log(a);
-   //this.document.getElementById("p").textContent='welcome '  + a;
+       console.log(event)
+        console.log('clicked');
+}
 
-   this.document.getElementById("p").innerHTML='<h1> welcome '  + a + '</h1>';
-   this.document.getElementById("p").style.color="red";
-   this.document.getElementById("p").style.backgroundColor="yellow";
-   this.document.querySelector('button').style.fontSize='50px';
-   this.document.getElementsByTagName('h1')[0].textContent = 'me3ah mahdi yesehl l js';
-
-   //querySelector 
-    this.document.querySelector('h1').textContent = 'me3ah bilel yesehl l js';
-    this.document.querySelector('h1').style.color='blue';
-    this.document.querySelector('h1').style.backgroundColor='green';
-}    this.document.querySelector('h1').style.fontSize='50px';
+function f2(){
+    console.log('lll');
+}
