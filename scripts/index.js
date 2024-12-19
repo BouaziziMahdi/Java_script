@@ -125,3 +125,31 @@ while(i<5){
     console.log(i);
    
 }
+
+
+// json object notation
+var firstname="mahdi";
+var lastname="bouazizi";
+var age=24 ;
+var city="menzel bourguiba";
+var zip=7050;
+
+var person={
+    "firstname":"mahdi",
+    "lastname":"bouazizi",
+    "age":24,
+    "adress":{
+        "city":"menzel bourguiba",
+        "zip":7050
+    }
+}
+console.log(person);
+
+var person =new Object();
+person.firstname="mahdi";
+person.lastname="bouazizi";
+person.age=24;
+person.adress=new Object();
+person.adress.city="menzel bourguiba";
+person.adress.zip=7050;
+console.log(person);
